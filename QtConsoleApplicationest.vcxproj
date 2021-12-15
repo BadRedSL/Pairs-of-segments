@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Class_2_3_tree.cpp" />
+    <ClCompile Include="Class_tree.cpp" />
     <ClCompile Include="Class_point_of_segment.cpp" />
     <ClCompile Include="Class_segment.cpp" />
     <ClCompile Include="Class_set_of_segments.cpp" />
@@ -19,7 +19,7 @@
     <ClCompile Include="Qt_Pairs_of_Segments.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Class_2_3_tree.h" />
+    <ClInclude Include="Class_tree.h" />
     <ClInclude Include="Class_point_of_segment.h" />
     <ClInclude Include="Class_segment.h" />
     <ClInclude Include="Class_set_of_segments.h" />

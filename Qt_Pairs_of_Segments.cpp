@@ -19,13 +19,6 @@ int main(int argc, char* argv[])
 	setlocale(LC_ALL, "rus");
 
 	/*==================================================================================================*/
-
-	SetOfSegments test;
-
-	test.handGenerator();
-	std::cout << test.effectiveIntersection() << std::endl;
-
-	/*==================================================================================================*/
 	
 	/*SetOfSegments test1;
 
@@ -56,39 +49,37 @@ int main(int argc, char* argv[])
 	return a1.exec();*/
 
 	/*==================================================================================================*/
-	/*проверить!*/
 
 	/*SetOfSegments test2;
 
 	std::vector<std::pair<double, double>> points2;
 	std::vector<std::pair<double, double>> points22;
 
-	size_t n2 = 10003;
-	size_t k2 = 1;
+	size_t n2 = 1;
 
-	
-	while (k2 < 10004)
+	for (size_t i = 0; n2 <= 1001; ++i)
 	{
-		
-		test2.autoGenerator(n2, k2);
+
+		test2.autoGenerator(n2);
 		std::cout << test2.intersection() << std::endl;
 		std::cout << test2.effectiveIntersection() << std::endl;
 
-		points2.push_back(std::pair<double, double>(k2, test2.getNativeTime()));
-		points22.push_back(std::pair<double, double>(k2, test2.getEffectiveTime()));
+		points2.push_back(std::pair<double, double>(n2, test2.getNativeTime()));
+		points22.push_back(std::pair<double, double>(n2, test2.getEffectiveTime()));
 
-		k2 += 100;
+		n2 += 1;
 		test2.clear();
 
 	}
 
+
 	QApplication a2(argc, argv);
-	mainw* sw2 = new mainw(points2, points22, "K");
+	mainw* sw2 = new mainw(points2, points22, "N");
 	sw2->show();
 	return a2.exec();*/
-	
+
 	/*==================================================================================================*/
-	
+
 	/*SetOfSegments test3;
 
 	std::vector<std::pair<double, double>> points3;
@@ -125,7 +116,7 @@ int main(int argc, char* argv[])
 
 	/*==================================================================================================*/
 
-	/*SetOfSegments test4;
+	SetOfSegments test4;
 
 	std::vector<std::pair<double, double>> points4;
 	std::vector<std::pair<double, double>> points42;
@@ -157,7 +148,7 @@ int main(int argc, char* argv[])
 	QApplication a4(argc, argv);
 	mainw* sw4 = new mainw(points4, points42, "R");
 	sw4->show();
-	return a4.exec();*/
+	return a4.exec();
 
 	return 0;
 }

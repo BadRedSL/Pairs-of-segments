@@ -11,7 +11,7 @@
 #include <string>
 
 
-class Segment
+struct Segment
 {
 public:
 

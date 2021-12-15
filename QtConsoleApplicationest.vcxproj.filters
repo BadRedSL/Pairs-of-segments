@@ -31,10 +31,10 @@
     <ClCompile Include="Mainw.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
-    <ClCompile Include="Class_2_3_tree.cpp">
+    <ClCompile Include="Class_point_of_segment.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
-    <ClCompile Include="Class_point_of_segment.cpp">
+    <ClCompile Include="Class_tree.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -48,10 +48,10 @@
     <ClInclude Include="Mainw.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Class_2_3_tree.h">
+    <ClInclude Include="Class_point_of_segment.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Class_point_of_segment.h">
+    <ClInclude Include="Class_tree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
